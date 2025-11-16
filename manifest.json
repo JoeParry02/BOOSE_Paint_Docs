@@ -1,0 +1,242 @@
+{
+  "source_base_path": "C:/Users/fernl/source/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "BOOSE_Paint/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSE_Paint/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "BOOSE_Paint/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSE_Paint/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "BOOSE_Paint/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "BOOSE_Paint/toc.html"
+        },
+        ".json": {
+          "relative_path": "BOOSE_Paint/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppCanvas.yml\" sourcestartlinenumber=\"1\">Class AppCanvas contains methods for drawing custom graphics</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppCircle",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppCircle.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a circle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppClear.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppClear",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppClear.yml\" sourcestartlinenumber=\"1\">Replacement command for clearing the canvas</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppFillCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppFillCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppFillCircle",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppFillCircle.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a circle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppFillRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppFillRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppFillRect",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppFillRect.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a filled rectangle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppInt",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppInt.yml\" sourcestartlinenumber=\"1\">Replacement command for handling integer variables</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppMoveTo",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppMoveTo.yml\" sourcestartlinenumber=\"1\">Replacement command for moving the pen position</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppReal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppReal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppRect",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppRect.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a rectangle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.Form1",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.Form1.yml\" sourcestartlinenumber=\"1\">Main program form</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
