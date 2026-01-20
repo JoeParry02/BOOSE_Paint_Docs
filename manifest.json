@@ -1,47 +1,48 @@
 {
-  "source_base_path": "C:/Users/fernl/source/Documentation",
+  "source_base_path": "C:/Users/fernl/source/repos/ase-boose-assignment-JoeParry02/BOOSE_Paint",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
-      "type": "Resource",
-      "output": {
-        "resource": {
-          "relative_path": "index.json"
-        }
-      }
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "BOOSE_Paint/getting-started.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppArray.yml",
       "output": {
         ".html": {
-          "relative_path": "BOOSE_Paint/getting-started.html"
+          "relative_path": "api/BOOSE_Paint.AppArray.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppArray",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppArray.yml\" sourcestartlinenumber=\"1\">Replacement command for handling integer variables</p>\n"
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "BOOSE_Paint/introduction.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppBool.yml",
       "output": {
         ".html": {
-          "relative_path": "BOOSE_Paint/introduction.html"
+          "relative_path": "api/BOOSE_Paint.AppBool.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppBool",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppBool.yml\" sourcestartlinenumber=\"1\">Replacement command for handling bool variables</p>\n"
     },
     {
-      "type": "Toc",
-      "source_relative_path": "BOOSE_Paint/toc.yml",
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppCall.yml",
       "output": {
         ".html": {
-          "relative_path": "BOOSE_Paint/toc.html"
-        },
-        ".json": {
-          "relative_path": "BOOSE_Paint/toc.json"
+          "relative_path": "api/BOOSE_Paint.AppCall.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppCall",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppCall.yml\" sourcestartlinenumber=\"1\">Replacement command for calling methods</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -87,6 +88,104 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppCommandFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppCompoundCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppCompoundCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppCompoundCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppCompoundCommand.yml\" sourcestartlinenumber=\"1\">Replacement for the compound command base</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppConditionalCommand.conditionalTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppConditionalCommand.conditionalTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppConditionalCommand.conditionalTypes",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppConditionalCommand.conditionalTypes.yml\" sourcestartlinenumber=\"1\">Enum to represent the different conditional types</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppConditionalCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppConditionalCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppConditionalCommand",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppConditionalCommand.yml\" sourcestartlinenumber=\"1\">Replacement command for handling integer variables</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppDrawObj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppDrawObj.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppDrawObj",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppDrawObj.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a circle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppElse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppElse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppElse",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppElse.yml\" sourcestartlinenumber=\"1\">Replacement command for end statements</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppEnd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppEnd",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppEnd.yml\" sourcestartlinenumber=\"1\">Replacement command for end statements</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSE_Paint.AppFillCircle.yml",
       "output": {
         ".html": {
@@ -97,7 +196,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Paint.AppFillCircle",
-      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppFillCircle.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a circle</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppFillCircle.yml\" sourcestartlinenumber=\"1\">Command for drawing a filled circle</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -115,6 +214,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppFont.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppFont.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppFont",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppFont.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a circle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppFor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppFor",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppFor.yml\" sourcestartlinenumber=\"1\">Replacement command for clearing the canvas</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppIf.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppIf",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppIf.yml\" sourcestartlinenumber=\"1\">Replacement command for if statements</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSE_Paint.AppInt.yml",
       "output": {
         ".html": {
@@ -126,6 +267,20 @@
       "IsMRef": true,
       "Title": "BOOSE_Paint.AppInt",
       "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppInt.yml\" sourcestartlinenumber=\"1\">Replacement command for handling integer variables</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppMethod.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppMethod",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppMethod.yml\" sourcestartlinenumber=\"1\">Replacement command for if statements</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -143,6 +298,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppParser",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppParser.yml\" sourcestartlinenumber=\"1\">Replacement parser</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppPeek.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppPeek",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppPeek.yml\" sourcestartlinenumber=\"1\">Replacement command for handling integer variables</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppPoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppPoke.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppPoke",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppPoke.yml\" sourcestartlinenumber=\"1\">Replacement command for handling integer variables</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSE_Paint.AppReal.yml",
       "output": {
         ".html": {
@@ -153,7 +350,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSE_Paint.AppReal",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppReal.yml\" sourcestartlinenumber=\"1\">Replacement command for handling real type variables</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -168,6 +365,90 @@
       "IsMRef": true,
       "Title": "BOOSE_Paint.AppRect",
       "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppRect.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a rectangle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppStoredProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppStoredProgram",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppStoredProgram.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a circle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppTri.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppTri.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppTri",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppTri.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a circle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppWeight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppWeight.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppWeight",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppWeight.yml\" sourcestartlinenumber=\"1\">Replacement command for drawing a circle</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppWhile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppWhile",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppWhile.yml\" sourcestartlinenumber=\"1\">Replacement command for if statements</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.AppWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.AppWrite",
+      "Summary": "<p sourcefile=\"api/BOOSE_Paint.AppWrite.yml\" sourcestartlinenumber=\"1\">Replacement command for clearing the canvas</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSE_Paint.Form1.icons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSE_Paint.Form1.icons.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSE_Paint.Form1.icons",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -198,6 +479,16 @@
       "Summary": null
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
@@ -206,6 +497,29 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
         }
       },
       "version": ""
