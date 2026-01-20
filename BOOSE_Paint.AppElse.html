@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class AppReal </title>
+      <title>Class AppElse </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class AppReal ">
+      <meta name="title" content="Class AppElse ">
     
-    <meta name="description" content="Replacement command for handling real type variables">
+    <meta name="description" content="Replacement command for end statements">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -66,12 +66,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="BOOSE_Paint.AppReal">
+            <article class="content wrap" id="_content" data-uid="BOOSE_Paint.AppElse">
 
 
 
-  <h1 id="BOOSE_Paint_AppReal" data-uid="BOOSE_Paint.AppReal" class="text-break">Class AppReal</h1>
-  <div class="markdown level0 summary"><p>Replacement command for handling real type variables</p>
+  <h1 id="BOOSE_Paint_AppElse" data-uid="BOOSE_Paint.AppElse" class="text-break">Class AppElse</h1>
+  <div class="markdown level0 summary"><p>Replacement command for end statements</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -79,7 +79,10 @@
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">Command</span></div>
     <div class="level2"><span class="xref">Evaluation</span></div>
-    <div class="level3"><span class="xref">AppReal</span></div>
+    <div class="level3"><a class="xref" href="BOOSE_Paint.AppBool.html">AppBool</a></div>
+    <div class="level4"><a class="xref" href="BOOSE_Paint.AppConditionalCommand.html">AppConditionalCommand</a></div>
+    <div class="level5"><a class="xref" href="BOOSE_Paint.AppCompoundCommand.html">AppCompoundCommand</a></div>
+    <div class="level6"><span class="xref">AppElse</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -87,6 +90,42 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppCompoundCommand.html#BOOSE_Paint_AppCompoundCommand_CorrespondingCommand">AppCompoundCommand.CorrespondingCommand</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppCompoundCommand.html#BOOSE_Paint_AppCompoundCommand_CheckParameters_System_String___">AppCompoundCommand.CheckParameters(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_aProgram">AppConditionalCommand.aProgram</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_condType">AppConditionalCommand.condType</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_EndLineNumber">AppConditionalCommand.EndLineNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_Condition">AppConditionalCommand.Condition</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_LineNumber">AppConditionalCommand.LineNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_CondType">AppConditionalCommand.CondType</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_ReturnLineNumber">AppConditionalCommand.ReturnLineNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_Set_BOOSE_StoredProgram_System_String_">AppConditionalCommand.Set(StoredProgram, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppBool.html#BOOSE_Paint_AppBool_boolValue">AppBool.boolValue</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppBool.html#BOOSE_Paint_AppBool_BoolValue">AppBool.BoolValue</a>
+    </div>
     <div>
       <span class="xref">Evaluation.expression</span>
     </div>
@@ -97,7 +136,7 @@
       <span class="xref">Evaluation.varName</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.CheckParameters(string[])</a>
+      <span class="xref">Evaluation.value</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
@@ -107,6 +146,9 @@
     </div>
     <div>
       <span class="xref">Evaluation.VarName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Value</span>
     </div>
     <div>
       <span class="xref">Evaluation.Local</span>
@@ -125,9 +167,6 @@
     </div>
     <div>
       <span class="xref">Command.paramsint</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
@@ -171,59 +210,27 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="BOOSE_Paint.html">BOOSE_Paint</a></h6>
   <h6><strong>Assembly</strong>: BOOSE_Paint.dll</h6>
-  <h5 id="BOOSE_Paint_AppReal_syntax">Syntax</h5>
+  <h5 id="BOOSE_Paint_AppElse_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppReal : Evaluation, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppElse : AppCompoundCommand, ICommand</code></pre>
   </div>
-  <h3 id="fields">Fields
-</h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppReal_value.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppReal.value%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppReal.cs/#L19">View Source</a>
-  </span>
-  <h4 id="BOOSE_Paint_AppReal_value" data-uid="BOOSE_Paint.AppReal.value">value</h4>
-  <div class="markdown level1 summary"><p>Value of the real variable</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double value</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppReal_Value.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppReal.Value%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppElse_CorrespondingEnd.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppElse.CorrespondingEnd%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppReal.cs/#L23">View Source</a>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppElse.cs/#L20">View Source</a>
   </span>
-  <a id="BOOSE_Paint_AppReal_Value_" data-uid="BOOSE_Paint.AppReal.Value*"></a>
-  <h4 id="BOOSE_Paint_AppReal_Value" data-uid="BOOSE_Paint.AppReal.Value">Value</h4>
-  <div class="markdown level1 summary"><p>Accessor for the real variable value</p>
+  <a id="BOOSE_Paint_AppElse_CorrespondingEnd_" data-uid="BOOSE_Paint.AppElse.CorrespondingEnd*"></a>
+  <h4 id="BOOSE_Paint_AppElse_CorrespondingEnd" data-uid="BOOSE_Paint.AppElse.CorrespondingEnd">CorrespondingEnd</h4>
+  <div class="markdown level1 summary"><p>Corresponding end for this command</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Value { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AppEnd CorrespondingEnd { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -235,7 +242,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><a class="xref" href="BOOSE_Paint.AppEnd.html">AppEnd</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -244,14 +251,14 @@
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppReal_Compile.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppReal.Compile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppElse_Compile.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppElse.Compile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppReal.cs/#L31">View Source</a>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppElse.cs/#L29">View Source</a>
   </span>
-  <a id="BOOSE_Paint_AppReal_Compile_" data-uid="BOOSE_Paint.AppReal.Compile*"></a>
-  <h4 id="BOOSE_Paint_AppReal_Compile" data-uid="BOOSE_Paint.AppReal.Compile">Compile()</h4>
-  <div class="markdown level1 summary"><p>Compile the real variable and add to the current stored program</p>
+  <a id="BOOSE_Paint_AppElse_Compile_" data-uid="BOOSE_Paint.AppElse.Compile*"></a>
+  <h4 id="BOOSE_Paint_AppElse_Compile" data-uid="BOOSE_Paint.AppElse.Compile">Compile()</h4>
+  <div class="markdown level1 summary"><p>Compile the else command</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -259,17 +266,17 @@
     <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BOOSE.Evaluation.Compile()</span></div>
+  <div><a class="xref" href="BOOSE_Paint.AppCompoundCommand.html#BOOSE_Paint_AppCompoundCommand_Compile">AppCompoundCommand.Compile()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppReal_Execute.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppReal.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppElse_Execute.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppElse.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppReal.cs/#L40">View Source</a>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppElse.cs/#L47">View Source</a>
   </span>
-  <a id="BOOSE_Paint_AppReal_Execute_" data-uid="BOOSE_Paint.AppReal.Execute*"></a>
-  <h4 id="BOOSE_Paint_AppReal_Execute" data-uid="BOOSE_Paint.AppReal.Execute">Execute()</h4>
-  <div class="markdown level1 summary"><p>Carries out validation on the parameters assigns the value to the matching dictionary entry</p>
+  <a id="BOOSE_Paint_AppElse_Execute_" data-uid="BOOSE_Paint.AppElse.Execute*"></a>
+  <h4 id="BOOSE_Paint_AppElse_Execute" data-uid="BOOSE_Paint.AppElse.Execute">Execute()</h4>
+  <div class="markdown level1 summary"><p>Execute the else command</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -277,7 +284,7 @@
     <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BOOSE.Evaluation.Execute()</span></div>
+  <div><a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_Execute">AppConditionalCommand.Execute()</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">BOOSE.ICommand</span>
@@ -291,10 +298,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppReal.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppReal%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppElse.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppElse%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppReal.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppElse.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

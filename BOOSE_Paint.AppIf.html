@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Class AppClear </title>
+      <title>Class AppIf </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Class AppClear ">
+      <meta name="title" content="Class AppIf ">
     
-    <meta name="description" content="Replacement command for clearing the canvas">
+    <meta name="description" content="Replacement command for if statements">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -66,21 +66,23 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="BOOSE_Paint.AppClear">
+            <article class="content wrap" id="_content" data-uid="BOOSE_Paint.AppIf">
 
 
 
-  <h1 id="BOOSE_Paint_AppClear" data-uid="BOOSE_Paint.AppClear" class="text-break">Class AppClear</h1>
-  <div class="markdown level0 summary"><p>Replacement command for clearing the canvas</p>
+  <h1 id="BOOSE_Paint_AppIf" data-uid="BOOSE_Paint.AppIf" class="text-break">Class AppIf</h1>
+  <div class="markdown level0 summary"><p>Replacement command for if statements</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
     <div class="level1"><span class="xref">Command</span></div>
-    <div class="level2"><span class="xref">CanvasCommand</span></div>
-    <div class="level3"><span class="xref">CommandOneParameter</span></div>
-    <div class="level4"><span class="xref">AppClear</span></div>
+    <div class="level2"><span class="xref">Evaluation</span></div>
+    <div class="level3"><a class="xref" href="BOOSE_Paint.AppBool.html">AppBool</a></div>
+    <div class="level4"><a class="xref" href="BOOSE_Paint.AppConditionalCommand.html">AppConditionalCommand</a></div>
+    <div class="level5"><a class="xref" href="BOOSE_Paint.AppCompoundCommand.html">AppCompoundCommand</a></div>
+    <div class="level6"><span class="xref">AppIf</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -89,25 +91,67 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">CommandOneParameter.param1</span>
+      <a class="xref" href="BOOSE_Paint.AppCompoundCommand.html#BOOSE_Paint_AppCompoundCommand_CorrespondingCommand">AppCompoundCommand.CorrespondingCommand</a>
     </div>
     <div>
-      <span class="xref">CommandOneParameter.param1unprocessed</span>
+      <a class="xref" href="BOOSE_Paint.AppCompoundCommand.html#BOOSE_Paint_AppCompoundCommand_CheckParameters_System_String___">AppCompoundCommand.CheckParameters(string[])</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">CommandOneParameter.CheckParameters(string[])</a>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_aProgram">AppConditionalCommand.aProgram</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.yPos</span>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_condType">AppConditionalCommand.condType</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.xPos</span>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_EndLineNumber">AppConditionalCommand.EndLineNumber</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.canvas</span>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_Condition">AppConditionalCommand.Condition</a>
     </div>
     <div>
-      <span class="xref">CanvasCommand.Canvas</span>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_LineNumber">AppConditionalCommand.LineNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_CondType">AppConditionalCommand.CondType</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_ReturnLineNumber">AppConditionalCommand.ReturnLineNumber</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_Set_BOOSE_StoredProgram_System_String_">AppConditionalCommand.Set(StoredProgram, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppBool.html#BOOSE_Paint_AppBool_boolValue">AppBool.boolValue</a>
+    </div>
+    <div>
+      <a class="xref" href="BOOSE_Paint.AppBool.html#BOOSE_Paint_AppBool_BoolValue">AppBool.BoolValue</a>
+    </div>
+    <div>
+      <span class="xref">Evaluation.expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.evaluatedExpression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.varName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.value</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Evaluation.ProcessExpression(string)</a>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Expression</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.VarName</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Value</span>
+    </div>
+    <div>
+      <span class="xref">Evaluation.Local</span>
     </div>
     <div>
       <span class="xref">Command.IsDouble</span>
@@ -123,12 +167,6 @@
     </div>
     <div>
       <span class="xref">Command.paramsint</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
-    </div>
-    <div>
-      <span class="xref">Command.Compile()</span>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
@@ -172,74 +210,58 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="BOOSE_Paint.html">BOOSE_Paint</a></h6>
   <h6><strong>Assembly</strong>: BOOSE_Paint.dll</h6>
-  <h5 id="BOOSE_Paint_AppClear_syntax">Syntax</h5>
+  <h5 id="BOOSE_Paint_AppIf_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AppClear : CommandOneParameter, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class AppIf : AppCompoundCommand, ICommand</code></pre>
   </div>
   <h3 id="constructors">Constructors
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppClear__ctor.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppClear.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppIf__ctor.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppIf.%23ctor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppClear.cs/#L18">View Source</a>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppIf.cs/#L19">View Source</a>
   </span>
-  <a id="BOOSE_Paint_AppClear__ctor_" data-uid="BOOSE_Paint.AppClear.#ctor*"></a>
-  <h4 id="BOOSE_Paint_AppClear__ctor" data-uid="BOOSE_Paint.AppClear.#ctor">AppClear()</h4>
-  <div class="markdown level1 summary"><p>Constructor for the clear command</p>
+  <a id="BOOSE_Paint_AppIf__ctor_" data-uid="BOOSE_Paint.AppIf.#ctor*"></a>
+  <h4 id="BOOSE_Paint_AppIf__ctor" data-uid="BOOSE_Paint.AppIf.#ctor">AppIf()</h4>
+  <div class="markdown level1 summary"><p>Contructor of the if statement setting the conditional type</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AppClear()</code></pre>
+    <pre><code class="lang-csharp hljs">public AppIf()</code></pre>
   </div>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppClear__ctor_BOOSE_Canvas_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppClear.%23ctor(BOOSE.Canvas)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppClear.cs/#L26">View Source</a>
-  </span>
-  <a id="BOOSE_Paint_AppClear__ctor_" data-uid="BOOSE_Paint.AppClear.#ctor*"></a>
-  <h4 id="BOOSE_Paint_AppClear__ctor_BOOSE_Canvas_" data-uid="BOOSE_Paint.AppClear.#ctor(BOOSE.Canvas)">AppClear(Canvas)</h4>
-  <div class="markdown level1 summary"><p>Constructor for the clear command recieving the current canvas</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AppClear(Canvas c)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Canvas</span></td>
-        <td><span class="parametername">c</span></td>
-        <td><p>Current working canvas</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppClear_Execute.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppClear.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppIf_Compile.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppIf.Compile%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppClear.cs/#L32">View Source</a>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppIf.cs/#L27">View Source</a>
   </span>
-  <a id="BOOSE_Paint_AppClear_Execute_" data-uid="BOOSE_Paint.AppClear.Execute*"></a>
-  <h4 id="BOOSE_Paint_AppClear_Execute" data-uid="BOOSE_Paint.AppClear.Execute">Execute()</h4>
-  <div class="markdown level1 summary"><p>Clears the canvas</p>
+  <a id="BOOSE_Paint_AppIf_Compile_" data-uid="BOOSE_Paint.AppIf.Compile*"></a>
+  <h4 id="BOOSE_Paint_AppIf_Compile" data-uid="BOOSE_Paint.AppIf.Compile">Compile()</h4>
+  <div class="markdown level1 summary"><p>Run the base compilation of the compound and conditional command</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Compile()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="BOOSE_Paint.AppCompoundCommand.html#BOOSE_Paint_AppCompoundCommand_Compile">AppCompoundCommand.Compile()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppIf_Execute.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppIf.Execute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppIf.cs/#L35">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppIf_Execute_" data-uid="BOOSE_Paint.AppIf.Execute*"></a>
+  <h4 id="BOOSE_Paint_AppIf_Execute" data-uid="BOOSE_Paint.AppIf.Execute">Execute()</h4>
+  <div class="markdown level1 summary"><p>Execute the if statement and evaluation the condition</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -247,7 +269,7 @@
     <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BOOSE.Command.Execute()</span></div>
+  <div><a class="xref" href="BOOSE_Paint.AppConditionalCommand.html#BOOSE_Paint_AppConditionalCommand_Execute">AppConditionalCommand.Execute()</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">BOOSE.ICommand</span>
@@ -261,10 +283,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppClear.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppClear%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppIf.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppIf%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppClear.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppIf.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

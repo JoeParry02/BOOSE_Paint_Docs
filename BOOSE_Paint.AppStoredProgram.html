@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class AppStoredProgram </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class AppStoredProgram ">
+    
+    <meta name="description" content="Replacement command for drawing a circle">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="BOOSE_Paint.AppStoredProgram">
+
+
+
+  <h1 id="BOOSE_Paint_AppStoredProgram" data-uid="BOOSE_Paint.AppStoredProgram" class="text-break">Class AppStoredProgram</h1>
+  <div class="markdown level0 summary"><p>Replacement command for drawing a circle</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist">ArrayList</a></div>
+    <div class="level2"><span class="xref">StoredProgram</span></div>
+    <div class="level3"><span class="xref">AppStoredProgram</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ilist">IList</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a></div>
+    <div><span class="xref">IStoredProgram</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">StoredProgram.IsValidProgram()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">StoredProgram.SetSyntaxStatus(bool)</a>
+    </div>
+    <div>
+      <span class="xref">StoredProgram.AddMethod(Method)</span>
+    </div>
+    <div>
+      <span class="xref">StoredProgram.AddVariable(Evaluation)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.GetVariable(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">StoredProgram.GetVariable(int)</a>
+    </div>
+    <div>
+      <span class="xref">StoredProgram.FindVariable(Evaluation)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.FindVariable(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.VariableExists(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.DeleteVariable(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.IsExpression(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.EvaluateExpressionWithString(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.EvaluateExpression(string)</a>
+    </div>
+    <div>
+      <span class="xref">StoredProgram.Push(ConditionalCommand)</span>
+    </div>
+    <div>
+      <span class="xref">StoredProgram.Add(Command)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.adapter">ArrayList.Adapter(IList)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.add">ArrayList.Add(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.addrange">ArrayList.AddRange(ICollection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.binarysearch#system-collections-arraylist-binarysearch(system-int32-system-int32-system-object-system-collections-icomparer)">ArrayList.BinarySearch(int, int, object, IComparer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.binarysearch#system-collections-arraylist-binarysearch(system-object)">ArrayList.BinarySearch(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.binarysearch#system-collections-arraylist-binarysearch(system-object-system-collections-icomparer)">ArrayList.BinarySearch(object, IComparer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.clear">ArrayList.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.clone">ArrayList.Clone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.contains">ArrayList.Contains(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.copyto#system-collections-arraylist-copyto(system-array)">ArrayList.CopyTo(Array)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.copyto#system-collections-arraylist-copyto(system-array-system-int32)">ArrayList.CopyTo(Array, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.copyto#system-collections-arraylist-copyto(system-int32-system-array-system-int32-system-int32)">ArrayList.CopyTo(int, Array, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.fixedsize#system-collections-arraylist-fixedsize(system-collections-arraylist)">ArrayList.FixedSize(ArrayList)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.fixedsize#system-collections-arraylist-fixedsize(system-collections-ilist)">ArrayList.FixedSize(IList)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.getenumerator#system-collections-arraylist-getenumerator">ArrayList.GetEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.getenumerator#system-collections-arraylist-getenumerator(system-int32-system-int32)">ArrayList.GetEnumerator(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.getrange">ArrayList.GetRange(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.indexof#system-collections-arraylist-indexof(system-object)">ArrayList.IndexOf(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.indexof#system-collections-arraylist-indexof(system-object-system-int32)">ArrayList.IndexOf(object, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.indexof#system-collections-arraylist-indexof(system-object-system-int32-system-int32)">ArrayList.IndexOf(object, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.insert">ArrayList.Insert(int, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.insertrange">ArrayList.InsertRange(int, ICollection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.lastindexof#system-collections-arraylist-lastindexof(system-object)">ArrayList.LastIndexOf(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.lastindexof#system-collections-arraylist-lastindexof(system-object-system-int32)">ArrayList.LastIndexOf(object, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.lastindexof#system-collections-arraylist-lastindexof(system-object-system-int32-system-int32)">ArrayList.LastIndexOf(object, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.readonly#system-collections-arraylist-readonly(system-collections-arraylist)">ArrayList.ReadOnly(ArrayList)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.readonly#system-collections-arraylist-readonly(system-collections-ilist)">ArrayList.ReadOnly(IList)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.remove">ArrayList.Remove(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.removeat">ArrayList.RemoveAt(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.removerange">ArrayList.RemoveRange(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.repeat">ArrayList.Repeat(object, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.reverse#system-collections-arraylist-reverse">ArrayList.Reverse()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.reverse#system-collections-arraylist-reverse(system-int32-system-int32)">ArrayList.Reverse(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.setrange">ArrayList.SetRange(int, ICollection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.sort#system-collections-arraylist-sort">ArrayList.Sort()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.sort#system-collections-arraylist-sort(system-collections-icomparer)">ArrayList.Sort(IComparer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.sort#system-collections-arraylist-sort(system-int32-system-int32-system-collections-icomparer)">ArrayList.Sort(int, int, IComparer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.synchronized#system-collections-arraylist-synchronized(system-collections-arraylist)">ArrayList.Synchronized(ArrayList)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.synchronized#system-collections-arraylist-synchronized(system-collections-ilist)">ArrayList.Synchronized(IList)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.toarray#system-collections-arraylist-toarray">ArrayList.ToArray()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.toarray#system-collections-arraylist-toarray(system-type)">ArrayList.ToArray(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.trimtosize">ArrayList.TrimToSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.capacity">ArrayList.Capacity</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.count">ArrayList.Count</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.isfixedsize">ArrayList.IsFixedSize</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.isreadonly">ArrayList.IsReadOnly</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.issynchronized">ArrayList.IsSynchronized</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">ArrayList.this[int]</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist.syncroot">ArrayList.SyncRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="BOOSE_Paint.html">BOOSE_Paint</a></h6>
+  <h6><strong>Assembly</strong>: BOOSE_Paint.dll</h6>
+  <h5 id="BOOSE_Paint_AppStoredProgram_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AppStoredProgram : StoredProgram, IList, ICollection, IEnumerable, ICloneable, IStoredProgram</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram__ctor_BOOSE_Paint_AppCanvas_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.%23ctor(BOOSE_Paint.AppCanvas)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L67">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram__ctor_" data-uid="BOOSE_Paint.AppStoredProgram.#ctor*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram__ctor_BOOSE_Paint_AppCanvas_" data-uid="BOOSE_Paint.AppStoredProgram.#ctor(BOOSE_Paint.AppCanvas)">AppStoredProgram(AppCanvas)</h4>
+  <div class="markdown level1 summary"><p>Constructor of the stored program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AppStoredProgram(AppCanvas canvas)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BOOSE_Paint.AppCanvas.html">AppCanvas</a></td>
+        <td><span class="parametername">canvas</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_CondPoints.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.CondPoints%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L36">View Source</a>
+  </span>
+  <h4 id="BOOSE_Paint_AppStoredProgram_CondPoints" data-uid="BOOSE_Paint.AppStoredProgram.CondPoints">CondPoints</h4>
+  <div class="markdown level1 summary"><p>Stack of the conditional commands created by the program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Stack CondPoints</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.stack">Stack</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_ProgramCounter.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.ProgramCounter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L46">View Source</a>
+  </span>
+  <h4 id="BOOSE_Paint_AppStoredProgram_ProgramCounter" data-uid="BOOSE_Paint.AppStoredProgram.ProgramCounter">ProgramCounter</h4>
+  <div class="markdown level1 summary"><p>Current position of the line being read from the program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ProgramCounter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_SyntaxStatus.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.SyntaxStatus%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L26">View Source</a>
+  </span>
+  <h4 id="BOOSE_Paint_AppStoredProgram_SyntaxStatus" data-uid="BOOSE_Paint.AppStoredProgram.SyntaxStatus">SyntaxStatus</h4>
+  <div class="markdown level1 summary"><p>Boolean describing whether the syntax of the current program is valid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SyntaxStatus</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_arrayVars.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.arrayVars%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L31">View Source</a>
+  </span>
+  <h4 id="BOOSE_Paint_AppStoredProgram_arrayVars" data-uid="BOOSE_Paint.AppStoredProgram.arrayVars">arrayVars</h4>
+  <div class="markdown level1 summary"><p>ArrayList storing the arrays created by the program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArrayList arrayVars</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist">ArrayList</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_canvas1.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.canvas1%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L22">View Source</a>
+  </span>
+  <h4 id="BOOSE_Paint_AppStoredProgram_canvas1" data-uid="BOOSE_Paint.AppStoredProgram.canvas1">canvas1</h4>
+  <div class="markdown level1 summary"><p>Current working canvas</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AppCanvas canvas1</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BOOSE_Paint.AppCanvas.html">AppCanvas</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_methodList.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.methodList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L41">View Source</a>
+  </span>
+  <h4 id="BOOSE_Paint_AppStoredProgram_methodList" data-uid="BOOSE_Paint.AppStoredProgram.methodList">methodList</h4>
+  <div class="markdown level1 summary"><p>ArrayList of methods created by the program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArrayList methodList</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.arraylist">ArrayList</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_PC.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.PC%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L51">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_PC_" data-uid="BOOSE_Paint.AppStoredProgram.PC*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_PC" data-uid="BOOSE_Paint.AppStoredProgram.PC">PC</h4>
+  <div class="markdown level1 summary"><p>Accessor for the program counter</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int PC { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.StoredProgram.PC</span></div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_AddArray_BOOSE_Paint_AppArray_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.AddArray(BOOSE_Paint.AppArray)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L194">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_AddArray_" data-uid="BOOSE_Paint.AppStoredProgram.AddArray*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_AddArray_BOOSE_Paint_AppArray_" data-uid="BOOSE_Paint.AppStoredProgram.AddArray(BOOSE_Paint.AppArray)">AddArray(AppArray)</h4>
+  <div class="markdown level1 summary"><p>Add an array to the program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddArray(AppArray array)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BOOSE_Paint.AppArray.html">AppArray</a></td>
+        <td><span class="parametername">array</span></td>
+        <td><p>Array object to be added</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_AddMethod_BOOSE_Paint_AppMethod_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.AddMethod(BOOSE_Paint.AppMethod)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L84">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_AddMethod_" data-uid="BOOSE_Paint.AppStoredProgram.AddMethod*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_AddMethod_BOOSE_Paint_AppMethod_" data-uid="BOOSE_Paint.AppStoredProgram.AddMethod(BOOSE_Paint.AppMethod)">AddMethod(AppMethod)</h4>
+  <div class="markdown level1 summary"><p>Function for adding a method to the program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddMethod(AppMethod newMethod)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BOOSE_Paint.AppMethod.html">AppMethod</a></td>
+        <td><span class="parametername">newMethod</span></td>
+        <td><p>AppMethod object to be added to the program</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_Commandsleft.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.Commandsleft%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L157">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_Commandsleft_" data-uid="BOOSE_Paint.AppStoredProgram.Commandsleft*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_Commandsleft" data-uid="BOOSE_Paint.AppStoredProgram.Commandsleft">Commandsleft()</h4>
+  <div class="markdown level1 summary"><p>Returns whether there are commands left to be processed in the program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Commandsleft()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>Boolean describing whether there are remaining commands</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.StoredProgram.Commandsleft()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_GetArray_System_String_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.GetArray(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L204">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_GetArray_" data-uid="BOOSE_Paint.AppStoredProgram.GetArray*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_GetArray_System_String_" data-uid="BOOSE_Paint.AppStoredProgram.GetArray(System.String)">GetArray(string)</h4>
+  <div class="markdown level1 summary"><p>Return an array with the requested name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AppArray GetArray(string varName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Name of the requested array</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BOOSE_Paint.AppArray.html">AppArray</a></td>
+        <td><p>Array by the requested name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_GetMethod_System_String_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.GetMethod(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L94">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_GetMethod_" data-uid="BOOSE_Paint.AppStoredProgram.GetMethod*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_GetMethod_System_String_" data-uid="BOOSE_Paint.AppStoredProgram.GetMethod(System.String)">GetMethod(string)</h4>
+  <div class="markdown level1 summary"><p>Return the method by the requested name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AppMethod GetMethod(string methodName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">methodName</span></td>
+        <td><p>Requested method name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BOOSE_Paint.AppMethod.html">AppMethod</a></td>
+        <td><p>Method with the matching name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_GetVarValue_System_String_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.GetVarValue(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L226">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_GetVarValue_" data-uid="BOOSE_Paint.AppStoredProgram.GetVarValue*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_GetVarValue_System_String_" data-uid="BOOSE_Paint.AppStoredProgram.GetVarValue(System.String)">GetVarValue(string)</h4>
+  <div class="markdown level1 summary"><p>Get the value of a variable stored in the program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string GetVarValue(string varName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Variable name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Requested variable value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.GetVarValue(string)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_NextCommand.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.NextCommand%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L148">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_NextCommand_" data-uid="BOOSE_Paint.AppStoredProgram.NextCommand*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_NextCommand" data-uid="BOOSE_Paint.AppStoredProgram.NextCommand">NextCommand()</h4>
+  <div class="markdown level1 summary"><p>Call the command from the program in the next position from the program counter point</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override object NextCommand()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.StoredProgram.NextCommand()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_Pop.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.Pop%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L130">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_Pop_" data-uid="BOOSE_Paint.AppStoredProgram.Pop*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_Pop" data-uid="BOOSE_Paint.AppStoredProgram.Pop">Pop()</h4>
+  <div class="markdown level1 summary"><p>Pop the last conditional command from the stack of condition points</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AppConditionalCommand Pop()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BOOSE_Paint.AppConditionalCommand.html">AppConditionalCommand</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_PostOutput_System_String_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.PostOutput(System.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L185">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_PostOutput_" data-uid="BOOSE_Paint.AppStoredProgram.PostOutput*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_PostOutput_System_String_" data-uid="BOOSE_Paint.AppStoredProgram.PostOutput(System.String)">PostOutput(string)</h4>
+  <div class="markdown level1 summary"><p>Pass a string to be posted in the text output window of the form to the canvas function</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PostOutput(string msg)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">msg</span></td>
+        <td><p>String message to be posted</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_PullArrayValue_System_String_BOOSE_Evaluation_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.PullArrayValue(System.String%2CBOOSE.Evaluation%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L347">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_PullArrayValue_" data-uid="BOOSE_Paint.AppStoredProgram.PullArrayValue*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_PullArrayValue_System_String_BOOSE_Evaluation_System_Int32_System_Int32_" data-uid="BOOSE_Paint.AppStoredProgram.PullArrayValue(System.String,BOOSE.Evaluation,System.Int32,System.Int32)">PullArrayValue(string, Evaluation, int, int)</h4>
+  <div class="markdown level1 summary"><p>Pull a value from a given position in an existing array</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PullArrayValue(string varName, Evaluation variable, int col, int row = 1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Name of the requested array</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Evaluation</span></td>
+        <td><span class="parametername">variable</span></td>
+        <td><p>Variable to receive the requested value</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">col</span></td>
+        <td><p>Column position to pull the value from</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>Row position to pull the value from</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_Push_BOOSE_Paint_AppConditionalCommand_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.Push(BOOSE_Paint.AppConditionalCommand)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L120">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_Push_" data-uid="BOOSE_Paint.AppStoredProgram.Push*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_Push_BOOSE_Paint_AppConditionalCommand_" data-uid="BOOSE_Paint.AppStoredProgram.Push(BOOSE_Paint.AppConditionalCommand)">Push(AppConditionalCommand)</h4>
+  <div class="markdown level1 summary"><p>Push a conditional command onto the stack of condition points</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Push(AppConditionalCommand Com)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="BOOSE_Paint.AppConditionalCommand.html">AppConditionalCommand</a></td>
+        <td><span class="parametername">Com</span></td>
+        <td><p>Conditional command to be stacked</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_ResetProgram.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.ResetProgram%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L170">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_ResetProgram_" data-uid="BOOSE_Paint.AppStoredProgram.ResetProgram*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_ResetProgram" data-uid="BOOSE_Paint.AppStoredProgram.ResetProgram">ResetProgram()</h4>
+  <div class="markdown level1 summary"><p>Reset the values modified during the running of the program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ResetProgram()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BOOSE.StoredProgram.ResetProgram()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_Run.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.Run%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L392">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_Run_" data-uid="BOOSE_Paint.AppStoredProgram.Run*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_Run" data-uid="BOOSE_Paint.AppStoredProgram.Run">Run()</h4>
+  <div class="markdown level1 summary"><p>Run the current stored program</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Run()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_UpdateVariable_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.UpdateVariable(System.String%2CSystem.Boolean)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L296">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_UpdateVariable_" data-uid="BOOSE_Paint.AppStoredProgram.UpdateVariable*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_UpdateVariable_System_String_System_Boolean_" data-uid="BOOSE_Paint.AppStoredProgram.UpdateVariable(System.String,System.Boolean)">UpdateVariable(string, bool)</h4>
+  <div class="markdown level1 summary"><p>Update an existing boolean variable value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateVariable(string varName, bool value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Variable name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>New value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.UpdateVariable(string, bool)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_UpdateVariable_System_String_System_Double_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.UpdateVariable(System.String%2CSystem.Double)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L279">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_UpdateVariable_" data-uid="BOOSE_Paint.AppStoredProgram.UpdateVariable*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_UpdateVariable_System_String_System_Double_" data-uid="BOOSE_Paint.AppStoredProgram.UpdateVariable(System.String,System.Double)">UpdateVariable(string, double)</h4>
+  <div class="markdown level1 summary"><p>Update an existing real variable value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateVariable(string varName, double value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Variable name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>New value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.UpdateVariable(string, double)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_UpdateVariable_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.UpdateVariable(System.String%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L258">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_UpdateVariable_" data-uid="BOOSE_Paint.AppStoredProgram.UpdateVariable*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_UpdateVariable_System_String_System_Int32_" data-uid="BOOSE_Paint.AppStoredProgram.UpdateVariable(System.String,System.Int32)">UpdateVariable(string, int)</h4>
+  <div class="markdown level1 summary"><p>Update an existing integer variable value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateVariable(string varName, int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Variable name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>New value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">StoredProgram.UpdateVariable(string, int)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram_UpdateVariable_System_String_System_String_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram.UpdateVariable(System.String%2CSystem.String%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L315">View Source</a>
+  </span>
+  <a id="BOOSE_Paint_AppStoredProgram_UpdateVariable_" data-uid="BOOSE_Paint.AppStoredProgram.UpdateVariable*"></a>
+  <h4 id="BOOSE_Paint_AppStoredProgram_UpdateVariable_System_String_System_String_System_Int32_System_Int32_" data-uid="BOOSE_Paint.AppStoredProgram.UpdateVariable(System.String,System.String,System.Int32,System.Int32)">UpdateVariable(string, string, int, int)</h4>
+  <div class="markdown level1 summary"><p>Update an existing array value at a given address</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateVariable(string varName, string value, int col, int row = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">varName</span></td>
+        <td><p>Array name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>New value</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">col</span></td>
+        <td><p>Column address</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">row</span></td>
+        <td><p>Row address</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ilist">IList</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.icollection">ICollection</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icloneable">ICloneable</a>
+  </div>
+  <div>
+      <span class="xref">BOOSE.IStoredProgram</span>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/new/main/apiSpec/new?filename=BOOSE_Paint_AppStoredProgram.md&amp;value=---%0Auid%3A%20BOOSE_Paint.AppStoredProgram%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ASE2025repos/ase-boose-assignment-JoeParry02/blob/main/BOOSE_Paint/AppStoredProgram.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
